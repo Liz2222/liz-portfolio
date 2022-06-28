@@ -7,10 +7,26 @@ body {background-color: #ddd; margin: 3rem;}
   background: white;
   border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
   color: black;
-  box-shadow: 20px 20px rgba(0,0,0,.15);
+  box-shadow: 20px 20px rgba(255, 175, 3, 0.15);
   transition: all .4s ease;
 }
 #tv:hover {
   border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
-  box-shadow: 10px 10px rgba(0,0,0,.25);
+  box-shadow: 10px 10px rgba(236, 196, 17, 0.25);
+}
+
+
+.line{
+  color:#FFA900;
+  height:10px;
+}
+.hey{
+    
+  font-family: 'Lexend', sans-serif;
+  
+}
+
+.name{
+  font-family: 'Boogaloo', cursive;
+  font-size: 70px;
 }

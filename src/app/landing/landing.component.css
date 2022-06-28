@@ -1,3 +1,14 @@
 img{
     border-radius: 60% 40% 40% 20% / 70% 50% 30% 25%;
 }
+
+.hey{
+    
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+}
+
+.name{
+    font-family: 'Boogaloo', cursive;
+    font-size: 70px;
+}
