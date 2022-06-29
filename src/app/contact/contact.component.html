@@ -1,14 +1,57 @@
-<p class="text-center">contact Me </p>
-<h4 class="text-center">Get in Touch</h4>
-<p class="text-center">I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
+<p class="text-center hey">Get in Touch</p>
+<h4 class="text-center name">Contact Me</h4>
+<p class="text-center hey">I am available to work on your projects and bring your ideas to life. I am just a click away.</p>
 
 
-<div class="d-flex align-items-start bg-light mb-3" style="height: 100px;">
-    <div class="col">One of three columns</div>
+
+
+<div class="container">
+<div class="row align-items-start  mb-3 text-white" >
+    
     <div class="col">
-        <i class="fab fa-whatsapp"></i>
-        <br>
-        <i class="fas fa-envelope-square"></i>
+        <img class="image-fluid" src="../../assets/contact.jpg">
     </div>
-    <div class="col">One of three columns</div>
+    <div class="col bg-light">
+        <form action="https://formsubmit.co/c91d813c251f84e01dbfdee20b5ccc66" method="POST">
+            <!-- Name input -->
+            <div class="form-outline mb-4 hey">
+              <label class="form-label " for="form4Example1">Name</label>
+              <input type="text" name="name" id="form4Example1" class="form-control text-dark input" required/>
+  
+  
+            </div>
+  
+            <!-- Email input -->
+            <div class="form-outline mb-4 hey">
+              <label class="form-label " for="form4Example2">Email address</label>
+              <input  type="email" name="email" id="form4Example2" class="form-control input" required/>
+  
+            </div>
+  
+            <!-- Message input -->
+            <div class="form-outline mb-4 hey">
+              <label class="form-label " for="form4Example3">Message</label>
+              <textarea class="form-control input" name="message" id="form4Example3" rows="4" required></textarea>
+  
+            </div>
+  
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://localhost:4200/thanks">
+
+            <!-- Checkbox -->
+            <!-- <div class="form-check d-flex justify-content-center mb-4">
+              <input class="form-check-input me-2" type="checkbox" value="" id="form4Example4" checked />
+              <label class="form-check-label" for="form4Example4">
+                Send me a copy of this message
+              </label>
+            </div> -->
+            <!-- Submit button -->
+           <button type="submit" class="btn btn-warning mb-4">Let's Talk  <i class="fa-solid fa-angles-right" style="color: white;"></i></button>
+        </form>
+
+ 
+    </div>
+
   </div>
+</div>
+  <br>
